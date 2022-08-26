@@ -14,7 +14,7 @@ def arithmetic_arranger(problems, solver = False):
     if len(problems) > 5:
         return "Error: Too many problems."
 
-    # Loop through "problems"
+    # Loop through the list
     for problem in problems:
         firstNumber = problem.split()[0]
         operator = problem.split()[1]
@@ -45,7 +45,7 @@ def arithmetic_arranger(problems, solver = False):
         lines = "-" * width
         solution = str(operation).rjust(width)
 
-        # Add to the string to print it
+        # Add to the list
         if problem != problems[-1]:
             first += top + '    '
             second += bottom + '    '
