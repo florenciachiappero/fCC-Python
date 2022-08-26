@@ -5,7 +5,6 @@
 def arithmetic_arranger(problems, solver = False):
 
     # Principal Variables
-    #arranged_problems = []
     first = ""
     second = ""
     line = ""
