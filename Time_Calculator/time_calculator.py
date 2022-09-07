@@ -1,4 +1,4 @@
-def add_time(start, duration):
+def add_time(start, duration, day=None):
 
     weekDays = {
         "Sunday": 0,
